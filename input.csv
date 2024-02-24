@@ -1,0 +1,14 @@
+Patient,Fields,Value
+P1,First Name,Saurav
+P1,Last Name,Singh
+P1,Age,16
+P1,Gender,Male
+P1,Vital,Alive
+P2,First Name,Amol
+P2,Age,90
+P2,Vital,Dead
+P3,First Name,Tushar
+P3,Last Name,OpenSpecimen
+P3,Age,200
+P3,Vital,Unknown
+P3,Blood Group,B+

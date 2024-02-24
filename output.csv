@@ -1,0 +1,4 @@
+Patient,First Name,Last Name,Age,Gender,Vital,Blood Group
+P1,Saurav,Singh,16,Male,Alive,
+P2,Amol,,90,,Dead,
+P3,Tushar,OpenSpecimen,200,,Unknown,B+
