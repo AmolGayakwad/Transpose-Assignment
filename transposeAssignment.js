@@ -46,8 +46,4 @@ fs.createReadStream('input.csv')
   
       fs.appendFileSync('output.csv', dataRow.join(',') + '\n');
     }
-
-    // Step 5: Close the output file
-    console.log(patient_info)
-    console.log('Output file generated successfully.');
   });
