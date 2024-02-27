@@ -7,7 +7,6 @@ let patient_info = {};
 fs.createReadStream('input.csv')
   .pipe(csv())
   .on('data', (row) => {
-    // Step 2a: Extract 'Patient' ID and 'Fields' value
     let patientID = row['Patient'];
     let fields = row['Fields'];
 
@@ -16,7 +15,6 @@ fs.createReadStream('input.csv')
     patient_info[key] = row['Value']; 
   })
   .on('end', () => {
-    // Step 3: Generate header row
     let fieldsSet = new Set();
     let uniquePatientIDs = new Set();
 
